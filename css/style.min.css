@@ -750,7 +750,7 @@ section {
 
 @media (max-width: 767px) {
   .jumbotron h1 {
-    font-size: 6rem; }
+    font-size: 75px !important; }
   .grid-item {
     width: 100%; }
   .progress {
