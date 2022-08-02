@@ -34,6 +34,10 @@
      box-sizing: border-box !important;
 }
 
+.logo-image{
+     
+}
+
 .container {
      max-width: 1170px;
 }
@@ -325,7 +329,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #000;
+     color: rgb(255, 255, 255);
      font-size: 85px;
      line-height: 96px;
      padding-bottom: 0px;
