@@ -35,9 +35,14 @@
 }
 
 .logo-image{
-     
+   width: 100%;  
 }
 
+@media only screen and (max-width: 600px) {
+     .logo-image{
+          width: 50%;  
+       }
+   }
 .container {
      max-width: 1170px;
 }
