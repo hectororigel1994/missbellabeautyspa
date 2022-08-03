@@ -284,14 +284,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #33f033;
+     color: #ff1e83;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #33f033;
+     color: #ff1e83;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -433,7 +433,11 @@ button {
 }
 
 .green {
-     color: #16e816 !important;
+     color: #16dae8 !important;
+}
+
+.custom-service{
+     color: #ff55e8 !important;
 }
 
 .d_flex {
@@ -441,6 +445,8 @@ button {
      align-items: center;
      flex-wrap: wrap;
 }
+
+
 
 .read_more {
      font-size: 17px;
@@ -456,16 +462,45 @@ button {
 }
 
 .read_more:hover {
-     background: #16e816;
+     background: #16e1e8;
      color: #fff;
      transition: ease-in all 0.5s;
+}
+
+
+.custom_button {
+     margin: 0 auto;
+     display: block;
+     margin-top: 60px;
+ }
+
+.custom_button {
+     font-size: 17px;
+     background-color: #252525;
+     color: #fff;
+     padding: 12px 0px;
+     width: 100%;
+     max-width: 210px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+     font-weight: 400;
+     margin: 0 auto;
+     display: block;
+     margin-top: 60px;
+}
+
+.custom_button:hover{
+     background: #f553df;
+     color: #fff;
+     transition: ease-in all 0.5s; 
 }
 
 
 /** about section **/
 
 .about {
-     background-color: #fff;
+     background-color: #fdcae1;
      padding-top: 95px;
 }
 
@@ -521,6 +556,7 @@ button {
 
 .service {
      padding-top: 80px;
+     background-color: #4fdfe9;
 }
 
 .service_box h3 {
@@ -554,7 +590,7 @@ button {
 .gallery {
      margin-top: 80px;
      padding-top: 80px;
-     background-color: #eae7e7;
+     background-color: #9fd5d1;
      padding-bottom: 50px;
 }
 
@@ -813,19 +849,19 @@ button {
 .banner_testimonial {
      padding: 40px 50px;
      width: 100%;
-     background-color: #343434;
+     background-color: #ffffff;
 }
 
 .text_humai {
      margin-top: 60px;
      text-align: left;
      padding: 0 30px 40px 30px;
-     border: #16d316 solid 1px;
+     border: #fc4280 solid 1px;
      border-radius: 5px;
 }
 
 .text_humai span {
-     color: #fff;
+     color: rgb(255, 62, 168);
      padding-top: 20px;
      padding-bottom: 20px;
      font-size: 17px;
@@ -839,7 +875,7 @@ button {
 }
 
 .text_humai p {
-     color: #fff;
+     color: rgb(35, 211, 255);
      font-weight: 400;
      font-size: 17px;
      line-height: 31px;
@@ -974,7 +1010,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #202020;
+     background: #f987e6;
      padding-top: 80px;
      text-align: center;
 }
@@ -1016,7 +1052,7 @@ ul.social_icon li a {
 
 ul.social_icon li a:hover {
      color: #fff;
-     background: #33f033;
+     background: #fdcae1;
 }
 
 .pad_roght2 {
@@ -1062,7 +1098,7 @@ ul.link_menu li a {
 }
 
 ul.link_menu li a:hover {
-     color: #33f033;
+     color: #fdcae1;
 }
 
 .bottom_form {
@@ -1101,7 +1137,7 @@ ul.link_menu li a:hover {
 
 .sub_btn:hover {
      transition: ease-in all 0.5s;
-     color: #33f033;
+     color: #fdcae1;
 }
 
 #hkh *::placeholder {
@@ -1129,7 +1165,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright a:hover {
-     color: #33f033;
+     color: #fdcae1;
 }
 
 
@@ -1139,5 +1175,5 @@ ul.link_menu li a:hover {
 /** endinner page css **/
 
 .in_page .header {
-     border-bottom: #3fe43d solid 2px;
+     border-bottom: #fdcae1 solid 2px;
 }
