@@ -42,6 +42,28 @@
   box-sizing: border-box;
 }
 
+.p-custom{
+font-size: 20px;
+color: #000;
+text-align: center;
+}
+
+.laser-section{
+  margin-top: 30px;
+  background-color: #03fffe;
+  height: auto;
+  width: 100%;
+  text-align: center;
+margin-bottom: 30px;
+}
+
+.laser-p{
+  text-align: center;
+  color:#f51d97;
+  font-size: 40px;
+  font-weight: 700;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2698,14 +2720,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #fab29e;
-  border-color: #f7a48d;
+  color: #ff36a9;
+  border-color: #ff36a9;
 }
 
 .btn-outline-secondary:hover {
   color: #212529;
-  background-color: #fab29e;
-  border-color: #f7a48d;
+  background-color: #ff36a9;
+  border-color: #ff36a9;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -2713,15 +2735,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #fab29e;
+  color: #ff36a9;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #212529;
-  background-color: #fab29e;
-  border-color: #f7a48d;
+  background-color: #ff36a9;
+  border-color: #ff36a9;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -2762,14 +2784,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info {
-  color: #fab29e;
-  border-color: #fab29e;
+  color: #ff36a9;
+  border-color: #ff36a9;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #f7a48d;
-  border-color: #f7a48d;
+  background-color: #f51d97;
+  border-color: #f51d97;
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
@@ -2777,15 +2799,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
-  color: #fab29e;
+  color: #ff36a9;
   background-color: transparent;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
-  background-color: #fab29e;
-  border-color: #fab29e;
+  background-color: #ff36a9;
+  border-color: #ff36a9;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
