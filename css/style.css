@@ -5,6 +5,30 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
+
+/* pacifico-regular - latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pacifico-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/pacifico-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pacifico-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pacifico-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pacifico-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pacifico-v22-latin-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
+}
+
+
+h1{
+  font-family: Pacifico !important;
+
+}
+
  :root {
   --blue: #007bff;
   --indigo: #6610f2;
