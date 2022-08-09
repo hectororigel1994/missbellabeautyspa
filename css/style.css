@@ -24,7 +24,7 @@
 }
 
 
-h1{
+.custom-h1, .custom-h1-responsive{
   font-family: Pacifico !important;
 
 }
