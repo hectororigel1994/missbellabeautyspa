@@ -534,6 +534,12 @@ h6, .h6 {
   width: 100% !important;
   height: 500px !important;
 }
+
+@media only screen and (min-width:1024px){
+ 
+  .custom-h1{ position: relative;
+    right: 55px;}
+}
  
 @media only screen and (max-width: 600px) {
  
